@@ -9,7 +9,7 @@ namespace ServiceBusReceiver
     class Program
     {
         //Constant connection credentials to be moved to secured file 
-        const string ServiceBusConnectionString = "Endpoint=sb://az-devjonah.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=pxtosfZg/4Ad7hp7Lw2ihQpPShJ3D7zz+Xbfv8CCwGA=";
+        const string ServiceBusConnectionString = "<<Write Your ServiceBus Connecting String here>>";
         const string QueueName = "devjonahtestqueue1";
         static IQueueClient queueClient; 
         static void Main(string[] args)
